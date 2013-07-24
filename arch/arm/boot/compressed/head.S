@@ -209,6 +209,7 @@ restart:	adr	r0, LC0
 		sub	r0, r0, r1		@ calculate the delta offset
 		add	r5, r5, r0		@ _start
 		add	r6, r6, r0		@ _edata
+#endif‬
 
 #ifndef CONFIG_ZBOOT_ROM
 		/* malloc space is above the relocated stack (64k max) */
